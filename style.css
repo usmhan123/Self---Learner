@@ -4,7 +4,7 @@ body {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
  
-        overflow-y: scroll; /* Enables vertical scrolling */
+        overflow-y: scroll;
     
 }
 .navbar {
@@ -149,8 +149,6 @@ body {
     color: #667eea;
     transform: scale(1.2);
 }
-
-/* Background Effect */
 .hero-section::before {
     content: '';
     position: absolute;
@@ -174,7 +172,6 @@ body {
         transform: translateY(0);
     }
 }
-
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -182,7 +179,6 @@ body {
     color: white;
     overflow-x: hidden;
 }
-
 .about-section {
     padding: 100px 20px;
     display: flex;
@@ -195,8 +191,6 @@ body {
     position: relative;
     overflow: hidden;
 }
-
-/* Profile Image Card */
 .profile-card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -207,7 +201,6 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
     margin-bottom: 30px;
 }
-
 .profile-image {
     width: 150px;
     height: 150px;
@@ -215,8 +208,6 @@ body {
     object-fit: cover;
     border: 3px solid rgba(255, 255, 255, 0.3);
 }
-
-/* About Me Text */
 .about-text {
     max-width: 600px;
     margin-bottom: 40px;
@@ -238,14 +229,12 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
-
 .info-cards {
      display: flex;
      flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
 }
-
 .info-card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -260,7 +249,6 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
-
 .info-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
@@ -283,7 +271,6 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
-/* Subtle Background Animation */
 .about-section::before {
     content: '';
     position: absolute;
@@ -411,7 +398,6 @@ body {
     font-size: 1.2rem;
 }
 
-/* Subtle Background Animation */
 .skills-section::before {
     content: '';
     position: absolute;
@@ -537,7 +523,6 @@ body {
     transform: scale(1.1);
 }
 
-/* Subtle Background Animation */
 .projects-section::before {
     content: '';
     position: absolute;
@@ -726,7 +711,6 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
-/* Subtle Background Animation */
 .contact-section::before {
     content: '';
     position: absolute;
@@ -882,7 +866,6 @@ padding-right: 210px;
     margin-top: 20px;
 }
 
-/* Scroll-to-Top Button */
 .scroll-to-top {
     position: fixed;
     bottom: 20px;
@@ -906,13 +889,11 @@ padding-right: 210px;
     box-shadow: 0 0 20px rgba(102, 126, 234, 0.9);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .col-md-4 {
         flex: 1 1 100%;
     }
 }
-/* Education Section */
 .education-section {
     text-align: center;
     padding: 80px 20px;
@@ -956,7 +937,6 @@ padding-right: 210px;
     font-size: 3rem;
     margin-bottom: 10px;
 }
-/* Experience Section */
 .experience-section {
     text-align: center;
     padding: 80px 20px;
@@ -964,28 +944,23 @@ padding-right: 210px;
     color: white;
 }
 
-/* Section Title */
 .section-title {
     font-size: 2.5rem;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
     margin-bottom: 40px;
 }
 
-/* Timeline Container */
 .timeline {
     position: relative;
     max-width: 700px;
     margin: auto;
 }
 
-/* Timeline Item */
 .timeline-item {
     position: relative;
     margin-bottom: 40px;
     padding-left: 40px;
 }
-
-/* Timeline Line */
 .timeline-item::before {
     content: "";
     position: absolute;
@@ -995,8 +970,6 @@ padding-right: 210px;
     height: 100%;
     background: rgba(255, 255, 255, 0.2);
 }
-
-/* Experience Card */
 .timeline-content {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -1008,22 +981,16 @@ padding-right: 210px;
     transition: transform 0.3s ease-in-out;
     text-align: left;
 }
-
-/* Hover Effect */
 .timeline-content:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 40px rgba(255, 255, 255, 0.2);
 }
-
-/* Company Name */
 .company {
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
     color: #ffcc70;
 }
-
-/* 🔥 RESPONSIVE DESIGN 🔥 */
 @media (max-width: 768px) {
     .timeline {
         max-width: 100%;
