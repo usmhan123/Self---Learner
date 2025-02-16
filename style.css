@@ -1,11 +1,35 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-color: #13111C;
     color: white;
  
-        overflow-y: scroll;
-    
+        overflow-y: scroll;   
+        position: relative;
+}
+.gradient-circle {
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    width: 24rem;
+    height: 24rem;
+    background: rgba(139, 92, 246, 0.2);
+    border-radius: 50%;
+    filter: blur(100px);
+   
+}
+
+::-webkit-scrollbar {
+    width: 6px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #A855F7; 
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1a1a1a; 
 }
 .navbar {
     background: rgba(42, 7, 99, 0.1);
@@ -59,9 +83,10 @@ body {
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+ 
     color: white;
     overflow-x: hidden;
+    position: relative;
 }
 
 .hero-section {
@@ -69,7 +94,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(139, 92, 246, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     position: relative;
@@ -84,8 +109,6 @@ body {
 .hero-title {
     font-size: 4rem;
     font-weight: bold;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5);
-    animation: glow 2s infinite alternate;
 }
 
 @keyframes glow {
@@ -156,7 +179,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+    background-color: #13111C;
     z-index: 0;
     animation: float 10s infinite ease-in-out;
 }
@@ -175,9 +198,10 @@ body {
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+   background-color: #13111C;
     color: white;
     overflow-x: hidden;
+    position: relative;
 }
 .about-section {
     padding: 100px 20px;
@@ -185,7 +209,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(139, 92, 246, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     position: relative;
@@ -278,7 +302,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+    background: rgba(139, 92, 246, 0.2);
     z-index: -1;
     animation: float 10s infinite ease-in-out;
 }
@@ -297,15 +321,16 @@ body {
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-color: #13111C;
     color: white;
     overflow-x: hidden;
+    position: relative;
 }
 
 .skills-section {
     padding: 100px 20px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(139, 92, 246, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     position: relative;
@@ -328,7 +353,7 @@ body {
 }
 
 .skill-category {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(139, 92, 246, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
@@ -351,7 +376,7 @@ body {
 }
 
 .skill-card {
-    background: rgba(236, 99, 99, 0.1);
+    background: rgba(139, 92, 246, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
@@ -405,7 +430,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+    background: rgba(139, 92, 246, 0.2);
     z-index: -1;
     animation: float 10s infinite ease-in-out;
 }
@@ -424,7 +449,7 @@ body {
 .projects-section {
     padding: 100px 20px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(139, 92, 246, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     position: relative;
@@ -530,7 +555,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+    background: rgba(139, 92, 246, 0.2);
     z-index: -1;
     animation: float 10s infinite ease-in-out;
 }
@@ -549,7 +574,7 @@ body {
 }
 
 .lightbox-content {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(139, 92, 246, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
@@ -594,7 +619,7 @@ body {
 .contact-section {
     padding: 100px 20px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(139, 92, 246, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     position: relative;
@@ -679,7 +704,7 @@ body {
 }
 
 .info-card {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(139, 92, 246, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
@@ -717,7 +742,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background: radial-gradient(circle, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+    background: rgba(139, 92, 246, 0.2);
     z-index: -1;
     animation: float 10s infinite ease-in-out;
 }
@@ -765,7 +790,7 @@ body {
     }
 }
 .footer {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(139, 92, 246, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -870,7 +895,7 @@ padding-right: 210px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: rgba(102, 126, 234, 0.8);
+    background: rgba(139, 92, 246, 0.2);
     border: none;
     border-radius: 50%;
     width: 50px;
@@ -897,7 +922,7 @@ padding-right: 210px;
 .education-section {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: rgba(139, 92, 246, 0.2);
 }
 
 .section-title {
@@ -915,7 +940,7 @@ padding-right: 210px;
 }
 
 .education-card {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(139, 92, 246, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
@@ -940,7 +965,7 @@ padding-right: 210px;
 .experience-section {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: rgba(139, 92, 246, 0.2);
     color: white;
 }
 
@@ -971,7 +996,7 @@ padding-right: 210px;
     background: rgba(255, 255, 255, 0.2);
 }
 .timeline-content {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(139, 92, 246, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 20px;
