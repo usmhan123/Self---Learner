@@ -88,7 +88,55 @@ body {
     overflow-x: hidden;
     position: relative;
 }
+@keyframes changeText {
+    0%, 32% {
+        content: "Creative Front-End Developer";
+        opacity: 1;
+        transform: translateY(0);
+    }
+    33%, 34% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    35%, 65% {
+        content: "WordPress Designer";
+        opacity: 1;
+        transform: translateY(0);
+    }
+    66%, 67% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    68%, 100% {
+        content: "Passionate Software Engineer";
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
+.hero-description::before {
+    content: "";
+    animation: changeText 7s infinite;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: linear-gradient(90deg, #A855F7, #FACC15, #F43F5E);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.hero-description {
+    position: relative;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 1rem;
+}
 .hero-section {
     height: 100vh;
     display: flex;
